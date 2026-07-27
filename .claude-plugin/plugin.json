@@ -1,0 +1,18 @@
+{
+  "name": "sophron-skills",
+  "description": "16 skills for performance marketing and client acquisition — research → scripts → QC → media buying. Includes a 15-chapter operator course and naming/SOP generators.",
+  "homepage": "https://www.sophronsolutions.com/",
+  "repository": "https://github.com/leoxmoore/sophron-skills",
+  "author": {
+    "name": "Leo Moore",
+    "url": "https://github.com/leoxmoore"
+  },
+  "keywords": [
+    "marketing",
+    "ads",
+    "meta-ads",
+    "creative-strategy",
+    "media-buying",
+    "direct-response"
+  ]
+}

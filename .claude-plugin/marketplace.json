@@ -1,0 +1,14 @@
+{
+  "name": "sophron",
+  "owner": {
+    "name": "Leo Moore",
+    "url": "https://github.com/leoxmoore"
+  },
+  "plugins": [
+    {
+      "name": "sophron-skills",
+      "source": "./",
+      "description": "16 skills for performance marketing and client acquisition — research → scripts → QC → media buying. Includes a 15-chapter operator course."
+    }
+  ]
+}

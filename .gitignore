@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Editor temp files
+*.swp
+*.swo
+*~
+.vscode/
+
+# Client data — these dirs are scaffolded but each client's data is theirs.
+# Uncomment if you want to keep per-client data out of the shared repo.
+# context/business.md
+# context/ad-account.md
+# context/glossary.md
+# knowledge-base/sales-calls/*
+# knowledge-base/winning-ads/*
+# knowledge-base/research/*
+# outputs/*
+# memory/open-loops.md
