@@ -71,6 +71,15 @@ Handle failures explicitly, don't paper over them:
 - **Ad removed / region-locked** — report to the user which ad_id failed and move on to the next link.
 - **Multiple links pasted at once** — process each one, don't stop the batch on a single failure.
 
+## Heads up: Facebook rate limiting
+
+Facebook will 429 (rate limit) both `yt-dlp` and `discover_ads.py` if you fire off many requests back-to-back with no gap — this happens fast (as few as 5–8 rapid requests), regardless of small per-request delays. It's temporary IP-level throttling, not an account ban, and it clears on its own after a cooldown.
+
+When ripping more than a handful of ads in one go:
+- Space individual `rip_ad.py` / `yt-dlp` calls out (roughly 5–10+ seconds apart) rather than firing them in a tight loop.
+- If a batch starts failing with `HTTP Error 429` or `Unable to get verification cookie`, stop, wait a minute or two, and resume — don't keep retrying immediately, that extends the cooldown.
+- For large listings (20+ ads discovered), consider ripping in smaller chunks over a few minutes rather than one continuous run.
+
 ## Step 2 — Output structure
 
 ```
