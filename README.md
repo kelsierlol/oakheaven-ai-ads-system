@@ -11,11 +11,11 @@ This is your workspace. It contains 16 skills that take your ad account from raw
 If you just want the 16 skills available inside an existing Claude Code or Cowork project, install via the marketplace:
 
 ```
-/plugin marketplace add leoxmoore/sophron-skills
-/plugin install sophron-skills@sophron
+/plugin marketplace add kelsierlol/ai-ads-system
+/plugin install titan-ads-system@titan-ads-system
 ```
 
-After install, the skills appear under the `sophron-skills` namespace and trigger automatically based on your prompts. This option does **not** include the operator course or the workspace folders (`context/`, `knowledge-base/`, `outputs/`, `memory/`) — those only come with Option 2.
+After install, the skills appear under the `titan-ads-system` namespace and trigger automatically based on your prompts. This option does **not** include the operator course or the workspace folders (`context/`, `knowledge-base/`, `outputs/`, `memory/`) — those only come with Option 2.
 
 ### Option 2 — Clone the full workspace (skills + course + folders)
 

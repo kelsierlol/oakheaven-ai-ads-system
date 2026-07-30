@@ -1,12 +1,7 @@
 {
-  "name": "sophron-skills",
+  "name": "titan-ads-system",
   "description": "16 skills for performance marketing and client acquisition — research → scripts → QC → media buying. Includes a 15-chapter operator course and naming/SOP generators.",
-  "homepage": "https://www.sophronsolutions.com/",
-  "repository": "https://github.com/leoxmoore/sophron-skills",
-  "author": {
-    "name": "Leo Moore",
-    "url": "https://github.com/leoxmoore"
-  },
+  "repository": "https://github.com/kelsierlol/ai-ads-system",
   "keywords": [
     "marketing",
     "ads",

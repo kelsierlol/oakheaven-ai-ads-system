@@ -7,7 +7,7 @@
 
 ## Clone The Workspace
 
-You should have received a GitHub invitation email giving you access to the `sophron-skills` repository. Accept it before continuing.
+You should have received a GitHub invitation email giving you access to the `ai-ads-system` repository. Accept it before continuing.
 
 In your terminal, navigate to where you keep project folders (Desktop is easiest):
 
@@ -24,7 +24,7 @@ cd %USERPROFILE%\Desktop
 Then clone the workspace:
 
 ```
-git clone https://github.com/leoxmoore/sophron-skills.git ai-ads-system
+git clone https://github.com/kelsierlol/ai-ads-system.git ai-ads-system
 ```
 
 (`ai-ads-system` becomes the folder name — change it if you prefer something else.)

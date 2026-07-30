@@ -19,3 +19,6 @@ Thumbs.db
 # knowledge-base/research/*
 # outputs/*
 # memory/open-loops.md
+
+# Ripped competitor ad data (videos, transcripts) — local research only, not shared repo content
+skills/competitor-swipe/swipes/

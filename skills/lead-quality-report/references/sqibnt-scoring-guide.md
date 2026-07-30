@@ -33,7 +33,7 @@ Score every lead on 6 dimensions (1-5 each) based on closer notes, call summarie
 
 | Score | Description | Signals |
 |-------|-------------|---------|
-| 5 | Researched independently, arrived bought in | "Researched SOPHRON independently", watched VSL, read emails, came with specific questions |
+| 5 | Researched independently, arrived bought in | "Researched us independently", watched VSL, read emails, came with specific questions |
 | 4 | Clear interest, consumed pre-call content | Watched VSL, engaged in GC, asked good questions on call |
 | 3 | Interested but exploring | Comparing multiple options, booked calls with competitors |
 | 2 | Low intent, impulse booking | Saw ad that morning, hadn't watched VSL, "just finding out what you do" |
