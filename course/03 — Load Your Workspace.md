@@ -24,7 +24,7 @@ cd %USERPROFILE%\Desktop
 Then clone the workspace:
 
 ```
-git clone https://github.com/kelsierlol/ai-ads-system.git ai-ads-system
+git clone https://github.com/kelsierlol/oakheaven-ai-ads-system.git oakhaven-ads
 ```
 
 (`ai-ads-system` becomes the folder name — change it if you prefer something else.)
@@ -52,7 +52,7 @@ ai-ads-system/
 ## Navigate Into Your Workspace
 
 ```
-cd ai-ads-system
+cd oakhaven-ads
 ```
 
 Verify you're in the right place by running:

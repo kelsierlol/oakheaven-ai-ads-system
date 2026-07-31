@@ -33,12 +33,12 @@ The workspace is hosted on GitHub. You'll get an invitation email after onboardi
    ```
 8. **Clone the workspace:**
    ```
-   git clone https://github.com/kelsierlol/ai-ads-system.git ai-ads-system
+   git clone https://github.com/kelsierlol/oakheaven-ai-ads-system.git oakhaven-ads
    ```
    You can name the folder whatever you like — `ai-ads-system` is just an example.
 9. **Navigate into the workspace:**
    ```
-   cd ai-ads-system
+   cd oakhaven-ads
    ```
 10. **Launch Claude Code** inside the workspace folder:
     ```
