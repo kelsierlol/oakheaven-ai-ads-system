@@ -8,7 +8,9 @@ Research evidence lives in `knowledge-base/research/` — this file holds conclu
 
 **What they sell:** Done-for-you short-form and long-form video editing, monthly. The client films, uploads raw footage, gets edited video back in 24 hours. Every account gets two people: a trained lead editor and a project manager who reviews every video before delivery.
 
-**Price:** [GAP] Not stated. The VSL implies $1,250–$2,500/mo by anchoring against "$5,000–$10,000/month in payroll" and claiming "less than one-fourth." That is an inference. Structure (retainer / per-video / credit subscription) also unconfirmed.
+**Price: $1,500/mo** — client-stated 2026-07-31. Confirms the VSL's implied $1,250–$2,500 band at the lower end.
+[GAP] Structure still unconfirmed: what $1,500 buys (video count, max length, formats), whether it's month-to-month
+or a minimum term, and cost-to-deliver. KPI Tracker needs those three before it can model max CAC.
 
 Known market prices: VidChops $495 and $995. EditCrew $1,500–$2,450. Oakhaven's implied price sits in EditCrew's band. The payroll anchor is aimed at the wrong comparison — the prospect's alternative is a $495 subscription, not an in-house hire. Confirm the real price before writing any script that mentions value.
 
