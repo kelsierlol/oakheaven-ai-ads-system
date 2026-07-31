@@ -22,3 +22,12 @@ Thumbs.db
 
 # Ripped competitor ad data (videos, transcripts) — local research only, not shared repo content
 skills/competitor-swipe/swipes/
+**/swipes/
+*.mp4
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Local Claude Code state (settings, worktrees) — never shipped
+.claude/

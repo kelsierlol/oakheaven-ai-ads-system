@@ -1,95 +1,72 @@
-# Your AI Ads System
+# Oakhaven Media — AI Ads System
 
-This is your workspace. It contains 16 skills that take your ad account from raw customer research to launched, QC'd ads — and the media buying playbook to run them. It also includes a 15-chapter operator course that walks you through onboarding from zero.
+Your ad workspace. Claude reads your business context and runs the skills that turn research into scripts, campaigns and daily media buying decisions.
 
----
-
-## Two ways to use this
-
-### Option 1 — Install as a Claude Code plugin (skills only, no workspace)
-
-If you just want the 16 skills available inside an existing Claude Code or Cowork project, install via the marketplace:
+## Start here
 
 ```
-/plugin marketplace add kelsierlol/ai-ads-system
-/plugin install titan-ads-system@titan-ads-system
+claude
 ```
 
-After install, the skills appear under the `titan-ads-system` namespace and trigger automatically based on your prompts. This option does **not** include the operator course or the workspace folders (`context/`, `knowledge-base/`, `outputs/`, `memory/`) — those only come with Option 2.
+Run that inside this folder. Claude loads your context automatically. Then ask for what you want in plain English — no commands to memorise.
 
-### Option 2 — Clone the full workspace (skills + course + folders)
+## The two things you do
 
-This is the original full experience: skills, the 15-chapter operator course, and the pre-structured folders for client context, research, and outputs.
+**1. Drop files in.** Everything the system learns comes from these folders:
 
-1. Open **course/README.md** and follow the fast path (Steps 01–05). It walks you through installing Claude Code + Git, cloning the workspace, gathering your inputs, and running your first creative cycle. About 3–4 hours end to end.
-2. Have **ONBOARDING — Client Inputs Checklist.md** open while you gather the inputs the system needs.
-3. Once you're set up, open Claude Code in this folder and start with: *"What skills do you have available?"*
+| Put this here | Folder |
+|---|---|
+| Sales call transcripts | `knowledge-base/sales-calls/` |
+| Testimonials, case studies, results | `knowledge-base/research/proof/` |
+| Scripts of ads that performed | `knowledge-base/winning-ads/` |
+| Anything else — surveys, reviews, notes | `knowledge-base/research/` |
 
-If you'd rather read the workspace setup separately first, see **SETUP GUIDE.md**.
+Text files. Claude reads them next session.
 
----
+**2. Ask for the work.**
 
-## What's in here
+| Say this | You get |
+|---|---|
+| "Run a creative strategy" | Scored personas, micro-personas, the strategy map |
+| "Write 5 ad scripts from this brief" | Storyboards with 3 hook variations each, QC'd |
+| "QC these scripts" | 13 per-script + 3 batch checks against direct response standards |
+| "Run the KPI Tracker" | Max CAC, break-even ROAS, target CPR |
+| "Build my Media Buying SOP" | Budget brackets, kill/scale rules, daily protocol |
+| "Run my daily check-in" | Today's moves on the account |
+| "Run a bottleneck analysis" | Why performance dropped, ranked by cause |
 
-**Onboarding & setup**
-A guided onboarding flow that interviews you, fills your context files, walks you through loading your data, runs the creative strategy, generates your first scripts, locks in your KPIs, and builds your custom campaign structure with personalised budget bands. Pause and resume any time.
+Finished work lands in `outputs/`.
 
-**Creative engine — research → scripts → QC**
-Turn sales call transcripts and customer data into deeply specific persona profiles. Write production-ready ad scripts with 3 hook variations each. Quality-check every script before launch. Plus a generic copy QC for any non-script writing.
+## What's already done
 
-**Naming & operations**
-Lock the naming convention for your account once. Generate Meta-ready ad names from any concept list in seconds.
+Competitor research is complete — 18 live competitor ads ripped and transcribed, pricing across the market, and ~115 verified customer quotes from competitor case studies and forums. All in `knowledge-base/research/`.
 
-**Media buying**
-Reverse-engineer your target CAC from your real unit economics. Get a daily review playbook your media buyer can follow without interpretation. Surgical daily band management for ABO testing campaigns. Diagnose performance drops with a five-hypothesis framework. Map every dollar of ad spend to real sales outcomes with lead-level scoring.
+Read `outputs/asset-inventory-2026-07-31.md` first. It's a scorecard of what the system has and what it's missing, and it says exactly what to send to unblock the rest.
 
-**Utility**
-A skill creator for automating any new repeatable process you find yourself doing twice.
+## What's still needed from you
 
----
+In priority order:
 
-## Workspace layout
+1. **Your price and package structure** — blocks the KPI model and half the copy
+2. **Sales call recordings** — start recording from your next call. Fathom's free tier does it automatically. At 5 transcripts the personas get rebuilt properly.
+3. **One side-by-side video** — a generic edit next to your team's edit of the same footage
+4. **Team capacity and monthly budget** — sets the testing structure
 
-```
-├── README.md                                ← This file
-├── CLAUDE.md                                ← How the system thinks (don't edit)
-├── SETUP GUIDE.md                           ← First-time setup walkthrough
-├── ONBOARDING — Client Inputs Checklist.md  ← What to gather
-├── context/                                 ← Your business + account context
-├── skills/                                  ← The 16 skills + reference docs
-├── course/                                  ← AI Ads Operator Course (15 chapters)
-├── knowledge-base/                          ← Your transcripts, winning ads, research
-├── outputs/                                 ← Where finished work lands
-└── memory/                                  ← Tracks unfinished work across sessions
-```
+Full list with reasoning: `outputs/client-gap-questionnaire.md`
 
----
-
-## What you need
-
-- **Claude Code** installed (claude.com/claude-code — free with an Anthropic account)
-- **Git** installed (`git --version` to check; install from git-scm.com if missing)
-- **Your data** — sales call transcripts, customer data, competitor research, offer details, ad account access. Full list in the ONBOARDING checklist.
-
-That's it. No API keys. No integrations to set up.
-
----
-
-## Pulling updates
-
-When new versions of the engine ship, update with:
+## Folders
 
 ```
-cd ~/Desktop/your-workspace-folder
-git pull
+context/          Your offer, ICP, personas, voice, positioning
+knowledge-base/   What you upload — calls, proof, winning ads, research
+outputs/          Finished briefs, scripts, SOPs, reports
+memory/           What's open between sessions
+skills/           The 16 skills Claude runs
+course/           15-chapter operator course, if you want the theory
 ```
 
-Your data in `context/`, `knowledge-base/`, `outputs/`, and `memory/` is yours and never gets touched. Only the engine (skills, course, references) updates.
+## Updating
 
-**Don't edit files in `skills/` or `course/` yourself** — those are owned by the repo, and edits will conflict on the next pull. To customise the system, build a new skill with the Skill Creator instead.
+`git pull` brings engine updates. Your data in `context/`, `knowledge-base/`, `outputs/` and `memory/` is untouched.
 
----
-
-## Need help?
-
-Group calls run weekly. Drop questions in Slack/Skool any time between.
+Stuck? Check `SETUP GUIDE.md` or ask on the next call.
