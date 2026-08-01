@@ -162,6 +162,25 @@ Oakhaven Media AI Ads System/
   substitute for the sales-call hard gate — competitor-sourced VOC, not Oakhaven's own buyers. Load it
   wherever sales calls would normally be loaded, and flag every persona and angle built from it as a
   lower-confidence hypothesis in the output. It gets demoted the moment 5 real transcripts exist.
+
+  **⚠️ GATE WAIVER — this overrides the skill files. Read before running Creative Strategy.**
+  The Creative Strategy skill's Pre-Flight lists five Hard Gate Inputs and instructs you to stop if any are
+  missing. Two are missing here and **the client has accepted that trade in writing** (see the 2026-08-01
+  decision in `memory/open-loops.md`). Do not stop. Do not re-litigate it. Specifically:
+
+  - **Sales Call Transcripts (gate 1)** — waived. Substitute with `voice-of-customer.md`, ~115 verified
+    verbatims across all four awareness bands.
+  - **Client Customer Base Data (gate 2)** — waived. No CRM, no buyers yet. Proceed without it and say so.
+  - **Cluster minimum** — the skill demands 8–15 clusters as a "hard rule." Competitor-sourced VOC will not
+    honestly support 15. Produce as many as the data genuinely supports, and state the number and why.
+
+  What is **not** waived, because these are correctness limits rather than research-volume limits:
+  - Never state or imply a price. It is genuinely unknown (see `context/business.md`).
+  - Never invent a case study, testimonial, statistic or named client. Use `[INSERT PROOF — criteria]` tags.
+  - Never present a persona or angle from this data as settled. Label them hypotheses, every time.
+
+  **Phase 2:** when 5 transcripts land in `knowledge-base/sales-calls/`, this waiver expires. Re-run Creative
+  Strategy on the client's own data, demote `voice-of-customer.md` to secondary market context, drop the flags.
 - `knowledge-base/winning-ads/` — when running Script Generator or reviewing what's worked
 - `knowledge-base/research/` — when building or updating creative strategy
 - `course/` — only when the user asks about the course or you're walking them through onboarding

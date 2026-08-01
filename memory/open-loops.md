@@ -10,10 +10,30 @@
 
 Context files are populated from the client's raw research dump. `knowledge-base/` is scaffolded.
 
-**⛔ PRE-FLIGHT STATUS: NOT READY.** Asset Inventory run 2026-07-31 → `outputs/asset-inventory-2026-07-31.md`.
-Three hard-gate REDs: Voice of Customer (0 sales calls), Business Fundamentals (no price, no proof),
-Team & Capacity (unknown). Per guided-setup Phase 5, **do not run Creative Strategy, Script Generator, or
-KPI Tracker until these close.** The gap-closing sprint is at the bottom of the inventory file.
+**🟡 PRE-FLIGHT STATUS: PROCEED WITH FLAGS — interim mode, deliberate.** Asset Inventory run 2026-07-31 →
+`outputs/asset-inventory-2026-07-31.md`. Three hard-gate REDs remain: Voice of Customer (0 sales calls),
+Business Fundamentals (no price, no proof), Team & Capacity (unknown).
+
+**[2026-08-01] DECISION — the sales-call gate is waived for Phase 1.** Guided-setup Phase 5 would normally
+block Creative Strategy, Script Generator and KPI Tracker here. The client has chosen to start now on
+competitor-sourced VOC rather than wait for his own calls, and to re-run properly once calls exist. This is
+an accepted trade, not an oversight.
+
+**What this means when you run those skills:**
+
+- **Run them.** Do not stop and cite the missing sales calls as a blocker. The substitute is declared:
+  `knowledge-base/research/voice-of-customer.md`, ~115 verified verbatims across all four awareness bands.
+- **Flag everything built on it.** Every persona, angle and script is a lower-confidence hypothesis until
+  real calls land. Say so in the output — don't present them as settled conclusions.
+- **The still-hard blocks stay hard.** Price is genuinely unknown, so no script may state or imply a price,
+  and KPI Tracker cannot model unit economics until Q1–Q7 of the questionnaire are answered. No case study
+  or named result exists, so proof stays as `[INSERT PROOF]` tags. Do not invent either.
+
+**Phase 2 trigger:** 5 transcripts in `knowledge-base/sales-calls/` → re-run Creative Strategy on the
+client's own data, demote `voice-of-customer.md` to secondary market context, remove the confidence flags.
+
+The gap-closing sprint is at the bottom of the inventory file. Items 3–5 (competitor swipe, VOC harvest,
+review pulls) are complete; 1, 2, 6 and 7 are on the client.
 
 *Equivalent of guided-setup Phases 1–4 is complete* (filing verified, business/ad-account/glossary written
 from documents rather than a live interview). Phase 5 is where this stops.
